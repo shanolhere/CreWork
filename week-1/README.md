@@ -38,12 +38,12 @@ With the help of these elements, we can create a simple signup/login page using 
 
 ### Sign up page: 
 
-<img src="week-1\assets\signup.png" alt="signup page">
+<img src="week-1/assets/signup.png" alt="signup page">
 
 
 ### Log in page: 
 
-<img src="week-1\assets\login.png" alt="login page">
+<img src="week-1/assets/login.png" alt="login page">
 
 ##### **My Social Links**
 
