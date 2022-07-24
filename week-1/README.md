@@ -38,12 +38,11 @@ With the help of these elements, we can create a simple signup/login page using 
 
 ### Sign up page: 
 
-<img src="week-1/assets/signup.png" alt="signup page">
-
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-1/assets/signup.PNG" alt="signup page">
 
 ### Log in page: 
 
-<img src="\week-1\assets\login.PNG" alt="login page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-1/assets/login.PNG" alt="login page">
 
 ##### **My Social Links**
 
