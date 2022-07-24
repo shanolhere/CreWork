@@ -43,7 +43,7 @@ With the help of these elements, we can create a simple signup/login page using 
 
 ### Log in page: 
 
-<img src="week-1/assets/login.png" alt="login page">
+<img src="\week-1\assets\login.PNG" alt="login page">
 
 ##### **My Social Links**
 
