@@ -1,6 +1,6 @@
 ### CreWork Month-1 Week-1 Assignment
 
-## Challenge- A simple Signup/ Login Page
+## Challenge- A simple Signup/ Login Page using HTML
 
 Here, I have created a simple Signup and Login pages using HTML. 
 Lets' dive into how to create a simple singup/Login page using HTML.

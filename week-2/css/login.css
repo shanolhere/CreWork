@@ -1,0 +1,22 @@
+.termsBox{
+    margin-top:-10px;
+}
+.login{
+    color:white;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    background-color: #1890FF;
+    padding:8px;
+}
+.login:hover,.login:focus{
+    cursor: pointer;
+    color:white;
+}
+.forgot{
+    margin:20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

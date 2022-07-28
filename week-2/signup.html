@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link href="css/signup.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <ion-icon name="close-outline" class="close"></ion-icon>
+      <h2>Sign up</h2>
+      <button class="google">
+        <ion-icon name="logo-google" class="logo-google"></ion-icon> Sign up
+        with Google</button
+      ><br />
+      <hr />
+      <form>
+        <label for="name"> Name </label><br />
+        <input type="text" class="name" placeholder="Leslie Alexander" /><br />
+        <label for="email"> Email </label><br />
+        <input type="email" class="name" placeholder="example@mail.com" /><br />
+        <label for="password"> Password </label><br />
+        <div class="pwdContainer">
+        <input type="password" class="pwd" placeholder="atleast 8 characters" />
+        <ion-icon name="eye-outline" class="eyeIcon"></ion-icon>
+        </div>
+        <div class="boxes">
+          <span class="box"></span>
+          <span class="box"></span>
+          <span class="box"></span>
+          <span class="box"></span>
+        </div>
+        <div class="termsBox">
+          <input type="checkbox" class="terms" />
+          <span
+            >I agree with <a href="#">Terms </a> and
+            <a href="#">Privacy </a></span
+          >
+        </div>
+        <input type="submit" class="signup" value="Sign up" />
+        <hr />
+        <div class="account">
+          <p>Already have an account?</p>
+          <a href="login.html">Log in</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
