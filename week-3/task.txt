@@ -1,0 +1,23 @@
+# Month 1 - Week 3
+
+### Resources
+
+Tailwind: [https://youtu.be/dFgzHOX84xQ](https://youtu.be/dFgzHOX84xQ)
+
+This week, you will be learning about Tailwind and how to use it. If there is anything in the video that you don’t understand, maybe because of involvement of JS, skip that for now. We will be starting with JS next week.
+
+### Calls
+
+**Thursday:** Responsiveness (Mobile first approach); When and when not to use CSS frameworks
+
+**Sunday:** Make submissions, and Review Call with Community Lead
+
+### Tasks
+
+Clone a responsive single page. It can be any page you want. You can search for landing pages on dribble, or clone some of your favorite website.
+
+If you can’t find anything, you can refer to either of these challenges on [frontendmentor.io](http://frontendmentor.io) . Here, you get all the assets that you would require to build these mini-projects. Your job is to code and make those assets appear like that landing page 👀
+
+[**https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6**](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6)
+
+[**https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X**](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X)
