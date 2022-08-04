@@ -2,17 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sneakers | Landing Page</title>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link href="input.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./input.css" rel="stylesheet">
+
   </head>
   <body>
     <!-- navbar styling -->
-    <nav class="relative container mx-auto p-6">
+    <nav class="relative container mx-auto p-4 md:p-6">
       <div class="flex items-center justify-between">
+        <div class="block hamburger md:hidden focus:outline:none">
+          <ion-icon name="menu-outline" class="w-8 h-7 cursor-pointer menuBtn"></ion-icon>
+          <ion-icon name="close-outline" class="w-8 h-7 cursor-pointer closeBtn"></ion-icon>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-20 space-y-6 font-bold sm:w-auto sm:self-center ">
+
+            <a href="#" class="text-grey hover:text-brightRed">Collections</a>
+            <a href="#" class="text-grey hover:text-brightRed">Men</a>
+            <a href="#" class="text-grey hover:text-brightRed">Women</a>
+            <a href="#" class="text-grey hover:text-brightRed">About</a>
+            <a href="#" class="text-grey hover:text-brightRed">Contact</a>
+          </div>
+      </div>
         <!-- logo here -->
         <div class="py-0">
           <h3 class="font-mono font-bold text-4xl">Sneakers</h3>
@@ -25,10 +43,11 @@
           <a href="#" class="text-grey hover:text-brightRed">Contact</a>
         </div>
         <!-- cart and profile icon here -->
-        <div class="space-x-6 items-center md:flex">
-          <span class="text-center"><ion-icon name="cart-outline" class="w-8 h-6"></ion-icon></span>
+        <div class="flex items-center justify-between space-x-6 md:flex">
+          <a class="mt-0 cursor-pointer cartButton" href="./cart.html"><ion-icon name="cart-outline" class="relative w-8 h-7 cursor-pointer"></ion-icon>
+          </a>
           <img src="assets/image-avatar.png" alt="profile icon" width="38" height="38" class="image"/>
-      </div>
+        </div>
 
       </div>
     </nav>
@@ -36,20 +55,20 @@
 
    <!-- image and title section -->
    <div class="container mx-auto">
-      <div class="flex flex-col items-center gap-x-11 p-10 lg:flex-row">
+      <div class="flex flex-col items-center gap-x-11 p-10 md:flex-row">
          <div class="flex flex-col gap-6">
            <img class="img1 rounded-lg" src="assets/image-product-1.jpg" alt="img1" />
-           <div class="hidden flex gap-5 imageList md:flex">
-             <img class="img_thumbnail1 active cursor-pointer rounded-lg w-20 h-22" src="assets/image-product-1-thumbnail.jpg" alt="img2" />
-             <img class="img_thumbnail2 cursor-pointer rounded-lg w-20 h-22" src="assets/image-product-2-thumbnail.jpg" alt="img3" />
-             <img class="img_thumbnail3 cursor-pointer rounded-lg w-20 h-22" src="assets/image-product-3-thumbnail.jpg" alt="img4" />
-             <img class="img_thumbnail4 cursor-pointer rounded-lg w-20 h-22" src="assets/image-product-4-thumbnail.jpg" alt="img5" />
+           <div class="flex gap-2 md:gap-3 lg:gap-5 imageList md:flex mx-auto">
+             <img class="img_thumbnail1 active cursor-pointer rounded-lg w-1/4 md:w-1/5 lg:w-20 h-22" src="assets/image-product-1-thumbnail.jpg" alt="img2" />
+             <img class="img_thumbnail2 cursor-pointer rounded-lg w-1/4 md:w-1/5 lg:w-20 h-22" src="assets/image-product-2-thumbnail.jpg" alt="img3" />
+             <img class="img_thumbnail3 cursor-pointer rounded-lg w-1/4 md:w-1/5 lg:w-20 h-22" src="assets/image-product-3-thumbnail.jpg" alt="img4" />
+             <img class="img_thumbnail4 cursor-pointer rounded-lg w-1/4 md:w-1/5 lg:w-20 h-22" src="assets/image-product-4-thumbnail.jpg" alt="img5" />
            </div>
          </div>
          <div class="flex flex-col items-left px-8 md:w-1/2 py-6">
            <span class="text-brightRed text-base font-bold tracking-4 pb-0.5">SNEAKER COMPANY</span>
-           <h2 class="font-bold text-4xl pb-4">Fall Limited Edition Sneakers</h2>
-           <p class="text-grey py-2 font-serif text-md tracking-0">
+           <h2 class="font-bold text-4xl pb-4 w-auto">Fall Limited Edition Sneakers</h2>
+           <p class="text-grey w-auto py-2 font-serif text-md tracking-0 ">
              These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
            </p>
            <div class="flex items-center gap-4 py-0.5">
@@ -60,18 +79,19 @@
 
            <div class=" py-2 flex flex-row items-center gap-2">
              <div class="flex items-center justify-center gap-x-2 bg-lightGrey rounded-lg text-center font-bold p-2 px-2 w-1/2">
-               <button class="text-brightRed font-bold text-xl">-</button>
-               <input class="w-1/2 rounded-lg outline-0 text-center" type="number" value=0 />
-               <button class="text-brightRed font-bold text-xl">+</button>
+               <button class="text-brightRed font-bold text-xl minus">-</button>
+               <input type="number" value=1 class="w-1/2 rounded-lg outline-0 text-center quantity" />
+               <button class="text-brightRed font-bold text-xl plus">+</button>
              </div>
              <div class="bg-brightRedLight rounded-lg w-1/2 text-center p-2">
-               <a href="#" class="font-bold text-brightRed" >Add to cart</a>
+               <button class="font-bold text-brightRed cursor:pointer addCart" >Add to cart</button>
              </div>
+
            </div>
          </div>
     </div>
    </div>
 
-  <script src="js/index.js"></script>
+   <script src="js/index.js"></script>
   </body>
 </html>
