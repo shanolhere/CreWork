@@ -28,24 +28,38 @@ Task TODO: https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9
 
 ### Output:
 
-**HomePage on large devices**
+#### HomePage on large devices
+
+<br/>
 
 <img src="https://github.com/shanolhere/CreWork/blob/main/week-3/assets/md-sneakersPage.PNG" alt="md-sneakersPage">
 
-**checkoutPage on large devices**
-<img src="https://github.com/shanolhere/CreWork/blob/main/week-3/assets/md-checkoutPage.PNG" alt="md-checkoutPage">
+<br/>
 
-**HomePage on small devices**
+#### checkoutPage on large devices
+
+<br/>
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-3/assets/md-checkoutPage.PNG" alt="md-checkoutPage">
+<br/>
+
+#### HomePage on small devices
+
+<br/>
 
 <img src="https://github.com/shanolhere/CreWork/blob/main/week-3/assets/sm-sneakersPage.PNG" alt="sm-sneakersPage">
+<br/>
 
-**MenuBar on small devices**
+#### MenuBar on small devices
+
+ <br/>
 <img src="https://github.com/shanolhere/CreWork/blob/main/week-3/assets/sm-menuPage.PNG" alt="sm-menuPage">
+<br/>
 
+#### checkoutPage on small devices
 
-**checkoutPage on small devices**
+<br/>
 <img src="https://github.com/shanolhere/CreWork/blob/main/week-3/assets/sm-checkoutPage.PNG" alt="sm-checkoutPage">
-
+<br/>
 
 
 ##### **My Key Takeaways:**
