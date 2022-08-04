@@ -65,7 +65,7 @@ Task TODO: https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9
 ##### **My Key Takeaways:**
 1. This week learnt about Tailwind CSS. Got to know the predefined classes. Really loved it.😍
 2. During this week task, got across an issue related to responsive queries. Atlast with my mentors help, figured it out.
-Meta tags solved the issue related to responsive media. Leant something new during this week task.
+Meta tags solved the issue related to responsive media. Learnt something new during this week task.
 3. Overall, my expertise in Tailwind CSS is good. (Have to do another project using Tailwind CSS)
 4. Also brushed up JS concepts by this task.(Task - CartPage using JS done ✔ )
 4. Can't wait to explore Tailwind CSS in depth.
