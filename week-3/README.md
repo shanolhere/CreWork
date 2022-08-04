@@ -27,7 +27,7 @@ Okay for the introduction, lets build our project😎
 Task TODO: https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
 
 ### Output:
-
+Live Demo: https://sneakers4her.netlify.app/
 #### HomePage on large devices
 
 <br/>
