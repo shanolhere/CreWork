@@ -6,6 +6,7 @@ Let's dive into it.
 
 #### Weekly Tasks:
 
+
   <table>
     <tr>
       <th>Week-1 Simple Signup/ Login Page using HTML</th>
@@ -34,8 +35,7 @@ Let's dive into it.
 ##### **My Social Links**
 
 - **Portfolio**  - [PortfolioLink](https://sabiya.netlify.app/)
-<<<<<<< HEAD
+
 - **Twitter** - [TwitterLink](https://twitter.com/nerd_fswd)
-=======
+
 - **Twitter** - [TwitterLink](https://twitter.com/nerd_fswd))
->>>>>>> 60c97ab (add: added functionality to login/signup)
