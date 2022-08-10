@@ -10,7 +10,7 @@ Now this week, in week-4, we will learn JS by validating a simple Signup /Login 
 
 
 #### JavaScript :
-1.
+1. JavaScript
 
 Okay for the introduction, lets build our project😎
 
