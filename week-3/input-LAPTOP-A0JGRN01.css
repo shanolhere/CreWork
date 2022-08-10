@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+ /* body{
+  font-family: 'Kumbh Sans', sans-serif;
+} */
+/* .cart-outline{
+  width:30px;
+  height:25px;
+} */
+.img1{
+  /* margin-top: -70px; */
+  width:380px;
+  height:320px;
+}
+.active{
+  border:3px solid hsl(12, 88%, 59%);
+  opacity:0.7;
+  background: rgba(0, 0, 0, 0.3); /* Black see-through */
+
+}
+
+/* hamburger */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+.sideMenuDiv{
+  position: absolute;
+  top:0;
+  left:0;
+  background-color:rgba(255,255,255,0.9);
+
+  width:60%;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+  gap:30px;
+  visibility: visible;
+  z-index:999;
+
+}
+.closeBtn{
+  display:none;
+}
+.cartButton{
+  position: relative;
+}
+.cartDiv{
+  position: absolute;
+  top:50px;
+  right:50px;
+  background-color:red;
+  padding:30px;
+  width:50%;
+  height:50%;
+  opacity:0.6;
+  z-index:999;
+  color:black;
+}

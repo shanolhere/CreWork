@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link href="css/signup.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <ion-icon name="close-outline" class="close"></ion-icon>
+      <h2>Sign up</h2>
+      <button class="google">
+        <ion-icon name="logo-google" class="logo-google"></ion-icon> Sign up
+        with Google</button
+      ><br />
+      <hr />
+      <form>
+        <label for="name"> Name </label>
+        <input type="text" class="name" placeholder="Leslie Alexander" required/>
+        <small class="error nameError"></small><br />
+
+        <label for="email"> Email </label>
+        <input type="email" class="email" placeholder="example@mail.com" required/>
+        <small class="error emailError"></small><br />
+
+        <label for="password"> Password </label>
+        <div class="pwdContainer">
+        <input type="password" class="pwd" placeholder="atleast 8 characters" required/>
+        <ion-icon name="eye-off-outline" class="eye eyeOffIcon"></ion-icon>
+        <ion-icon name="eye-outline" class="eye eyeOnIcon"></ion-icon>
+        </div>
+        <div class="boxes">
+          <span class="box box1"></span>
+          <span class="box box2"></span>
+          <span class="box box3"></span>
+
+        </div>
+
+      </br/>
+        <small class="error pwdError"></small>
+
+        <div class="termsBox">
+          <input type="checkbox" class="checkButton" />
+          <span
+            >I agree with <a href="#">Terms </a> and
+            <a href="#">Privacy </a></span
+          >
+        </div>
+        <small class="error checkError"></small>
+        <input type="submit" class="signup" value="Sign up" />
+        <hr />
+        <div class="account">
+          <p>Already have an account?</p>
+          <a href="login.html">Log in</a>
+        </div>
+      </form>
+    </div>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
