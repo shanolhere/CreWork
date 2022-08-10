@@ -23,19 +23,15 @@ Let's dive into it.
       <td><a href="https://sneakers4her.netlify.app/">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-3">View Source Code</a></td>
     </tr>
-
     <tr>
       <th>Week-4 Signup Page/Login Page validation using JS</th>
       <td><a href="">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-4">View Source Code</a></td>
     </tr>
 
-    </table>
+</table>
 
 ##### **My Social Links**
 
 - **Portfolio**  - [PortfolioLink](https://sabiya.netlify.app/)
-
 - **Twitter** - [TwitterLink](https://twitter.com/nerd_fswd)
-
-- **Twitter** - [TwitterLink](https://twitter.com/nerd_fswd))
