@@ -22,14 +22,13 @@ Let's dive into it.
       <td><a href="https://sneakers4her.netlify.app/">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-3">View Source Code</a></td>
     </tr>
-<<<<<<< HEAD
-=======
+
     <tr>
       <th>Week-4 Signup Page/Login Page validation using JS</th>
       <td><a href="">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-4">View Source Code</a></td>
     </tr>
->>>>>>> 60c97ab (add: added functionality to login/signup)
+
     </table>
 
 ##### **My Social Links**
