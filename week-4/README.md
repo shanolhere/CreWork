@@ -21,7 +21,7 @@ Okay for the introduction, lets build our project😎
 Task TODO: https://dribbble.com/shots/15109371--A-tiny-part-of-Login-Form-New-Countly-UI
 
 ### Output:
-Live Demo:
+Live Demo:  https://validate-js.netlify.app/
 
 ### Signup page Validation:
 <br/>
