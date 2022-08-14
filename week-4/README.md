@@ -69,6 +69,13 @@ Live Demo:
 
 <br/>
 
+After entering valid input fields, the user gets a "success" alert and then redirects to "success page"
+<br/>
+
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-4/assets/success.PNG" alt="SuccessPage">
+
+<br/>
+
 
 ##### **My Key Takeaways:**
 1. This week learnt about JavaScript.
