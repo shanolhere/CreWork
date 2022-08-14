@@ -25,7 +25,7 @@ Let's dive into it.
     </tr>
     <tr>
       <th>Week-4 Signup Page/Login Page validation using JS</th>
-      <td><a href="">watch Demo</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-4#output">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-4">View Source Code</a></td>
     </tr>
 
