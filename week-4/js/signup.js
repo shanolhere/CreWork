@@ -25,7 +25,7 @@ var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 //name validation
 name.addEventListener('keyup', ()=> {
   if(name.value){
-    name.style.borderColor = ""
+    name.style.borderColor = "green"
     nameError.innerHTML =""
   }
 })
@@ -40,7 +40,7 @@ email.addEventListener('keyup', ()=> {
     email.style.borderColor = "red"
   }
   else{
-    email.style.borderColor = ""
+    email.style.borderColor = "green"
     emailError.innerHTML =""
   }
 })
@@ -58,14 +58,12 @@ pwd.addEventListener('keyup', ()=> {
     pwdError.innerHTML =""
     if(pwd.value.length<4){
       pwd.style.borderColor = "red"
-      // pwdError.innerHTML ="Password is too short!"
       box1.style.backgroundColor = "red"
       box2.style.backgroundColor = ""
       box3.style.backgroundColor = ""
     }
     if(pwd.value.match(/[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/)){
       pwd.style.borderColor = "orange"
-      // pwdError.innerHTML ="Password is too long!"
       box1.style.backgroundColor = "orange"
       box2.style.backgroundColor = "orange"
       box3.style.backgroundColor = ""

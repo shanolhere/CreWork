@@ -25,7 +25,7 @@ email.addEventListener('keyup', ()=> {
     email.style.borderColor = "red"
   }
   else{
-    email.style.borderColor = ""
+    email.style.borderColor = "green"
     emailError.innerHTML =""
   }
 })
@@ -45,7 +45,7 @@ pwd.addEventListener('keyup', ()=> {
     pwdError.innerHTML ="Password is too long!"
   }
   else{
-    pwd.style.borderColor = ""
+    pwd.style.borderColor = "green"
     pwdError.innerHTML = ""
   }
 })
