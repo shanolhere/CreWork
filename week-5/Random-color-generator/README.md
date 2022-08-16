@@ -12,7 +12,7 @@ Task TODO: <a href="https://crework.notion.site/image/https%3A%2F%2Fs3-us-west-2
 ### Output:
 Live Demo:  
 
-### Signup page Validation:
+### Random Color Generator:
 <br/>
 
 <img src="" alt="Page">

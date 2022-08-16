@@ -1,0 +1,35 @@
+# Month 2 - Week 1
+
+### Resources
+
+1. Devtools: [https://youtu.be/gTVpBbFWry8](https://youtu.be/gTVpBbFWry8)
+2. Recursion: [https://youtu.be/6oDQaB2one8](https://youtu.be/6oDQaB2one8)
+
+For more clarity on DOM:
+
+**Videos**
+
+1. [https://youtu.be/y17RuWkWdn8](https://youtu.be/y17RuWkWdn8)
+
+**Blogs**
+
+1. [https://javascript.info/searching-elements-dom](https://javascript.info/searching-elements-dom)
+2. [https://javascript.info/dom-attributes-and-properties](https://javascript.info/dom-attributes-and-properties)
+3. [https://javascript.info/styles-and-classes](https://javascript.info/styles-and-classes)
+
+### Calls
+
+Thursday: Group coding activity/ games
+
+Sunday: Make submissions, and Review Call
+
+### Tasks
+
+**Mini Project**: Random color palette generator
+
+**Some problems to solve:** Fibonacci, Factorial, Pattern problems
+
+**Description:**
+
+Create a web page which consists of a button clicking on
+which changes the color of the background to a random colour everytime the button is clicked. Example below:
