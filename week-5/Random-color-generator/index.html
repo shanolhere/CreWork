@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Color Generator</title>
     <link href="styles.css" rel="stylesheet"></link>
   </head>
@@ -11,12 +12,20 @@
     </nav>
     <div class="container">
       <div class="btn">
-        <h3>Your background-color is :
-          <div class="color"></div>
-          <span id="text">#ffffff</span>
-        </h3>
-        <button>Click Me</button>
-      </div>
+        <h3>Your background-color is :</h3>
+          <div>
+            <div class="color"></div>
+            <span id="text">#ffffff</span>
+          </div>
+        <!-- </h3> -->
+        <!-- <button>Click Me</button> -->
+			</div>
+			<div class="converter">
+      <button class="hex">Hex Converter</button>
+      <button class="rgb">RGB Converter</button>
+      <button class="hsl">HSL Converter</button>
+      <button class="gradient">Gradient Converter</button>
+			</div>
     </div>
     <script src="index.js"></script>
   </body>
