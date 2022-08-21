@@ -76,15 +76,16 @@ gradient.addEventListener("click", () => {
   let color1 = `rgb(${r},${g},${b})`;
   let color2 = `rgb(${r1},${g1},${b1})`;
 
-  let s = Math.floor(Math.random() * 101);
-  let l = Math.floor(Math.random() * 101);
+  //Gradient percentile values
+  // let s = Math.floor(Math.random() * 101);
+  // let l = Math.floor(Math.random() * 101);
 
   let gradDir =
     gradientDirections[Math.floor(Math.random() * gradientDirections.length)];
 
   body.style.background = `linear-gradient(${gradDir},${color1} 0%,${color2} 100%)`;
-  text.innerHTML = `linear-gradient(${gradDir},${color1} ${s}%,${color2} ${l}%)`;
-  color.style.background = `linear-gradient(${gradDir},${color1} ${s}%,${color2} ${l}%)`;
+  text.innerHTML = `linear-gradient(${gradDir},${color1} 0%,${color2} 100%)`;
+  color.style.background = `linear-gradient(${gradDir},${color1} 0%,${color2} 100%)`;
 });
 
 
@@ -100,7 +101,7 @@ text.addEventListener("click", () => {
   setTimeout(()=> {
     notification.style.display = 'none';
   },1000);
-  
+
   });
   //console.log(text.innerHTML);
 
