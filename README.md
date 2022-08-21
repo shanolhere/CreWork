@@ -28,6 +28,11 @@ Let's dive into it.
       <td><a href="https://validate-js.netlify.app/">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-4">View Source Code</a></td>
     </tr>
+    <tr>
+      <th>Week-5 Random Color Generator using JS</th>
+      <td><a href="https://js-randombg.netlify.app/">watch Demo</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-5/Random-color-generator">View Source Code</a></td>
+    </tr>
 
 </table>
 
