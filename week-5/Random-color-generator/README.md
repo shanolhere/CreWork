@@ -17,7 +17,6 @@ Live Demo:  https://js-randombg.netlify.app/
 
 <img src="https://github.com/shanolhere/CreWork/blob/main/week-5/Random-color-generator/assets/image1.PNG" alt="Page">
 
-<br/>
 
 On button click, a random background appears like below.
 
