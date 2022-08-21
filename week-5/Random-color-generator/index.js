@@ -5,7 +5,7 @@ const gradient = document.querySelector(".gradient");
 let body = document.querySelector("body");
 const text = document.getElementById("text");
 const color = document.querySelector(".color");
-
+const notification = document.querySelector(".notification");
 const numArr = [
   "1",
   "2",
@@ -85,4 +85,23 @@ gradient.addEventListener("click", () => {
   body.style.background = `linear-gradient(${gradDir},${color1} 0%,${color2} 100%)`;
   text.innerHTML = `linear-gradient(${gradDir},${color1} ${s}%,${color2} ${l}%)`;
   color.style.background = `linear-gradient(${gradDir},${color1} ${s}%,${color2} ${l}%)`;
+});
+
+
+text.addEventListener("click", () => {
+  navigator.clipboard.writeText(text.innerText).then(() => {
+    // Alert the user that the action took place.
+    // Nobody likes hidden stuff being done under the hood!
+    setTimeout(()=> {
+    notification.innerHTML = `${text.innerText} copied to your clipboard.`
+    notification.style.display = 'block'
+  },1)
+
+  setTimeout(()=> {
+    notification.style.display = 'none';
+  },1000);
+  
+  });
+  //console.log(text.innerHTML);
+
 });

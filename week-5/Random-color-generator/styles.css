@@ -14,6 +14,7 @@ nav {
   border-bottom: 2px solid black;
 }
 .container {
+  margin: 1rem auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,6 +24,7 @@ nav {
   padding: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
+  width:auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,4 +70,23 @@ span{
   letter-spacing: 1px;
   font-weight:bold;
   font-size:19px;
+}
+
+body{
+  position:relative;
+}
+.notification{
+  margin:1rem auto;
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding:5px;
+  border-radius: 5px;
+  color:white;
+  display:none;
+  z-index:999;
+}
+#text:hover{
+  cursor: pointer;
 }
