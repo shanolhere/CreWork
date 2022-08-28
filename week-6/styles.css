@@ -1,0 +1,139 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  background:#F1F5F8;
+}
+main{
+  display:flex;
+  flex-direction:column;
+  gap:0px;
+  justify-content: center;
+  align-items: center;
+  background-color:#FFFFFF;
+  width:max-content;
+  padding:1rem;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  border-radius:8px;
+}
+.underline{
+  background:dodgerblue;
+  border:2px solid dodgerblue;
+  width:100px;
+  margin:10px auto;
+}
+.todo-container{
+  margin:4rem auto;
+  display: flex;
+  justify-content: center;
+}
+input[type="text"]{
+  padding:8px 24px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius:8px;
+  outline:none;
+  border:none;
+  background:hsl(210, 36%, 96%);
+  font-size: 1.6rem;
+  width:100%;
+}
+.submit{
+  color:white;
+  background:dodgerblue;
+  outline:none;
+  padding:8px;
+  border:none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius:8px;
+  font-size: 1.4rem;
+}
+.submit:hover{
+  cursor:pointer;
+}
+.submit:active{
+  box-shadow:inset 1px 1px 1px 1px white;
+}
+.error{
+  text-align:center;
+  letter-spacing:2px;
+  text-transform:capitalize;
+  margin:1rem auto;
+  color:white;
+  padding:5px;
+  border-radius:5px;
+  width:100%;
+}
+ul{
+  list-style-type: none;
+  width: 80vw;
+  margin:auto;
+  max-width: 30rem;
+  display:flex;
+  flex-direction: column;
+  gap:12px;
+}
+li{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background:hsl(210, 36%, 96%);
+  padding:8px 15px;
+  border-radius:5px;
+  width:100%;
+  font-size:1.6rem;
+}
+li:hover{
+  /* border-left:5px solid red; */
+  cursor:pointer;
+}
+
+.edit, .delete, .timer{
+  background:transparent;
+  font-size:1.8rem;
+  color:green;
+  outline:none;
+  padding:0px;
+  border:none;
+  font-weight:bolder;
+}
+.delete{
+  color:red;
+}
+.timer{
+  color:orangered;
+}
+.edit:hover, .delete:hover, .timer:hover{
+  cursor:pointer;
+}
+.operations{
+  display:flex;
+  gap:18px;
+}
+.heading{
+  display:flex;
+  gap:8px;
+  justify-content: center;
+  align-items: center;
+}
+/*input[type="radio"]{
+  appearance: none;
+  background-color: transparent;
+  color: currentColor;
+  width: 20px;
+  height: 20px;
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+input[type="radio"]:hover{
+  background-color: dodgerblue;
+  cursor:pointer
+}
+ input[type="radio"]:checked{
+  background:red;
+} */

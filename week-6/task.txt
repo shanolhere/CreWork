@@ -1,0 +1,42 @@
+# Month 2 - Week 2
+
+### Resources
+
+1. Event loop: [https://www.youtube.com/watch?v=8zKuNo4ay8E](https://www.youtube.com/watch?v=8zKuNo4ay8E)
+2. Higher order functions (Array): [https://youtu.be/rRgD1yVwIvE](https://youtu.be/rRgD1yVwIvE)
+3. Arrow functions: [https://www.youtube.com/watch?v=h33Srr5J9nY](https://www.youtube.com/watch?v=h33Srr5J9nY)
+4. String manipulation: [https://www.youtube.com/watch?v=rPV1BP5q1T4](https://www.youtube.com/watch?v=rPV1BP5q1T4)
+
+### Calls
+
+Thursday: Group coding activity/ games
+
+Sunday: Make submissions and Review Call
+
+### Tasks
+
+**Mini Project**: To-do list → basic add/delete with local storage with a timer (bonus)
+
+**Practice questions:** Arrays ([https://www.hackerrank.com/domains/data-structures?filters[subdomains][]=arrays](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=arrays))
+
+**Description:**
+
+Create a To-Do List with the functionality to add and delete tasks, storing them in the local storage.
+
+Bonus Functionality (Optional) → Add a timer to the task, eg 1 hour, after which it will be shown as delayed.
+
+**How it works?**
+
+1. A user is able to come to the screen and add tasks to To-Do List. Fields to add:
+    1. Task - Topic
+    2. Task - Description
+    3. Timer (The time in which you have to complete the task) - Optional
+2. After saving the task, the task would be shown on the To-Do List Screen as saved
+3. On the saved task, you will have following options:
+    1. Mark as Done
+    2. Delete
+    3. Edit
+4. If the task has timer, and that timer crosses the allotted time, make the boundary of that task Red.
+5. If the task is marked as complete, Cross the row like this: ~~Task 1~~
+6. If the task is deleted, remove it from the saved screen
+7. If the task is edited, reflect the changes on the screen
