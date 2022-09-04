@@ -1,0 +1,35 @@
+# Month 2 - Week 3
+
+### Resources
+
+Async JS: [https://www.youtube.com/watch?v=ZYb_ZU8LNxs](https://www.youtube.com/watch?v=ZYb_ZU8LNxs)
+
+Fetch: [https://www.youtube.com/watch?v=cuEtnrL9-H0](https://www.youtube.com/watch?v=cuEtnrL9-H0)
+
+Axios: [https://youtu.be/6LyagkoRWYA](https://youtu.be/6LyagkoRWYA)
+
+### Calls
+
+Thursday: Group coding activity/ games
+
+Sunday: Make submissions and Review Call
+
+### Tasks
+
+**In Short:** Build a Web Page and integrate any one of these APIs - Weather API/ Movies/ Anime/ Meme/ Pokemon API. You can create more than 1 if you want to practice.
+
+Google and find the APIs and their docs yourself 😉
+
+**Functionalities (Movies, Anime, Pokemon):**
+
+1. Show a list of items
+2. Implement search, which is triggered when the search button is pressed
+3. (Bonus) - Implement search, on every key press in the search bar
+
+**Functionalities (Weather):**
+
+1. Make a card to show the weather of your city (current location)
+
+**Functionalities (Meme):**
+
+1. Generate a random meme on the click of a button
