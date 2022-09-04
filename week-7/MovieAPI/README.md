@@ -1,6 +1,6 @@
 ### CreWork Month-2 Week-3 Assignment
 
-## Challenge - MovieAPI App using JS
+## Challenge - MovieGram App using JS
 
 In this week, we will learn how to create a MovieAPI app using JS
 
