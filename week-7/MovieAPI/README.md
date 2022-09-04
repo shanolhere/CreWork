@@ -5,7 +5,7 @@
 In this week, we will learn how to create a MovieAPI app using JS
 
 
-### MovieAPI App using JS:
+### MovieGram App using JS:
 
 
 ### Output:
