@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Console</title>
+
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Do calculations here...</h1>
+
+
+      <form>
+        <input type="number" placeholder="Enter first number" class="num1" required/>
+        <input type="number" placeholder="Enter second number" class="num2" required/>
+        <select class="operations" name="operations">
+          <option value="add">Add</option>
+          <option value="sub">Subtract</option>
+          <option value="mul">Multiply</option>
+          <option value="div">Divide</option>
+          <option value="mod">Modulus</option>
+        </select>
+        <button type="submit" class="submit">Submit</button>
+      </form>
+      <p class="result"></p>
+    </div>
+    <button class="console">Use console</button>
+     <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
