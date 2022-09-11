@@ -43,6 +43,11 @@ Let's dive into it.
       <td><a href="https://js-moviegram.netlify.app/">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-7/MovieAPI">View Source Code</a></td>
     </tr>
+    <tr>
+      <th>Week-7 Calculator console using JS</th>
+      <td><a href="https://calculator-console.netlify.app/">watch Demo</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-8">View Source Code</a></td>
+    </tr>
 
 </table>
 

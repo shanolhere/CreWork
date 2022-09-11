@@ -14,7 +14,7 @@ Calculator Console app : Demo link :  https://calculator-console.netlify.app/
 
 <br/>
 
-<img src="https://github.com/shanolhere/CreWork/blob/main/week-8/assets/image1.PNG" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-8/assets/image1.png" alt="Page">
 
 <br/>
 
