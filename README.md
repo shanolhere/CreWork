@@ -48,6 +48,16 @@ Let's dive into it.
       <td><a href="https://calculator-console.netlify.app/">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-8">View Source Code</a></td>
     </tr>
+    <tr>
+      <th>Week-9 Hackathon-1 KBC Quiz App</th>
+      <td><a href="https://kbc-quiz.netlify.app/">watch Demo</a></td>
+      <td><a href="https://github.com/shanolhere/kbc-app">View Source Code</a></td>
+    </tr>
+    <tr>
+      <th>Week-10 Hackathon-2 Focodoro Chrome Extension</th>
+      <td><a href="https://focodoro.netlify.app/">watch Demo</a></td>
+      <td><a href="https://github.com/shanolhere/focodoro">View Source Code</a></td>
+    </tr>
 
 </table>
 
