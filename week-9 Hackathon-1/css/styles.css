@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --gray : #4b5563;
+    --white : #f9fafb;
+    --violet : #5b21b6;
+    --kbc-blue : #34C6F6;
+    --kbc-violet : radial-gradient(circle, rgba(111, 64, 236, 1) 0%, rgba(29, 15, 82, 1) 100%);
+}
+
+
+html,
+body {
+  height: 100%;
+  background:rgba(90,47,120,0.9);
+  overflow-y:hidden;
+}
+
+.flex, section{
+  display:flex;
+  flex-direction: column;
+  gap:25px;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+input{
+  border-radius:5px;
+  padding:5px;
+  font-size:18px;
+  outline:none;
+  border:2px solid var(--kbc-violet);
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  letter-spacing:1px;
+}
+.primary-button {
+    background: var(--kbc-violet);
+    color: var(--white);
+    padding: 0.75rem 1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+    font-size: larger;
+    border: 1px solid transparent;
+}
+
+.primary-button:hover {
+    cursor:pointer;
+    box-shadow: 0px 0px 50px 8px var(--kbc-blue);
+    transition: all 0.1s ease-in;
+}
+.error{
+  color:white;
+  font-size:18px;
+  letter-spacing:1px;
+}
+
+.rules{
+  color:white;
+  padding:10px;
+  border:2px solid white;
+  border-radius:5px;
+  font-size:20px;
+}
+h3{
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.rules ul li::marker {
+  color: #C9A02A;
+  font-size: 1.5em;
+}
+.rules ul {
+  list-style-type: square;
+}

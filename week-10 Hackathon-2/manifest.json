@@ -1,0 +1,15 @@
+{
+  "name": "Focodoro",
+  "description": "Focus with Pomodoro which helps you increase your productivity",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "/assets/icons/focus.png",
+    "32": "/assets/icons/focus.png",
+    "48": "/assets/icons/focus.png"
+  },
+  "permissions": ["storage", "unlimitedStorage"]
+}
