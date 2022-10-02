@@ -22,18 +22,18 @@ Live Demo:  https://validate-react.netlify.app/
 ### Signup page Validation:
 <br/>
 
-<img src="https://github.com/shanolhere/CreWork/tree/main/week-11/assets/signup1.png" alt="SignupPage">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-11/assets/signup1.png" alt="SignupPage">
 
 <br/>
 
 
-<img src="https://github.com/shanolhere/CreWork/tree/main/week-11/assets/signup2.png" alt="SignupPage">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-11/assets/signup2.png" alt="SignupPage">
 
 <br/>
 
 <br/>
 
-<img src="https://github.com/shanolhere/CreWork/tree/main/week-11/assets/signup3.png" alt="SignupPage">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-11/assets/signup3.png" alt="SignupPage">
 
 
 <br/>
@@ -41,12 +41,12 @@ Live Demo:  https://validate-react.netlify.app/
 ### Login page Validation:
 <br/>
 
-<img src="https://github.com/shanolhere/CreWork/tree/main/week-11/assets/login1.png" alt="LoginPage">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-11/assets/login1.png" alt="LoginPage">
 
 <br/>
 
 
-<img src="https://github.com/shanolhere/CreWork/tree/main/week-11/assets/login2.png" alt="LoginPage">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-11/assets/login2.png" alt="LoginPage">
 
 <br/>
 
