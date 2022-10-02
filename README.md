@@ -9,7 +9,7 @@ Let's dive into it.
 
   <table>
     <tr>
-      <th>Week-1 Simple Signup/ Login Page using HTML</th>
+      <th style={text-align:left;}>Week-1 Simple Signup/ Login Page using HTML</th>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-1#sign-up-page">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-1">View Source Code</a></td>
     </tr>
