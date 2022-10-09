@@ -10,17 +10,17 @@ Let's dive into it.
     <tr>
       <th>GitHub DevFinder App</th>
       <td><a href="https://react-github-devfinder.netlify.app/">watch Demo</a></td>
-      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-2">View Source Code</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-12ReactAPIProjects/github-app">View Source Code</a></td>
     </tr>
     <tr>
       <th>Meme Generator App</th>
       <td><a href="https://react-meme-creator.netlify.app/">watch Demo</a></td>
-      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-3">View Source Code</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-12ReactAPIProjects/meme-app">View Source Code</a></td>
     </tr>
     <tr>
       <th>Weather App</th>
       <td><a href="https://react-weatherfinder.netlify.app/">watch Demo</a></td>
-      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-4">View Source Code</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-12ReactAPIProjects/weather-app">View Source Code</a></td>
     </tr>
 
 </table>

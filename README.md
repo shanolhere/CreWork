@@ -63,6 +63,11 @@ Let's dive into it.
       <td><a href="https://validate-react.netlify.app/">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-11">View Source Code</a></td>
     </tr>
+    <tr>
+      <th>Week-12 API App using React.JS</th>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-12ReactAPIProjects">watch Demo</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-12ReactAPIProjects">View Source Code</a></td>
+    </tr>
 
 </table>
 
