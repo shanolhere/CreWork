@@ -20,16 +20,9 @@ Live Demo: https://react-weatherfinder.netlify.app/
 ### Weather App:
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-12ReactAPIProjects/assets/weather.png" alt="Page">
 
 <br/>
-
-
-<img src="" alt="Page">
-
-<br/>
-
-
 
 
 ##### **My Key Takeaways:**

@@ -20,12 +20,12 @@ Live Demo: https://react-meme-creator.netlify.app/
 ### Meme Generator App:
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-12ReactAPIProjects/assets/memeHome.png" alt="Page">
 
 <br/>
 
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-12ReactAPIProjects/assets/meme.png" alt="Page">
 
 <br/>
 

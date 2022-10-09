@@ -20,16 +20,9 @@ Live Demo: https://react-github-devfinder.netlify.app/
 ### GitHub DevFinder App:
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-12ReactAPIProjects/assets/githubFinder.png" alt="Page">
 
 <br/>
-
-
-<img src="" alt="Page">
-
-<br/>
-
-
 
 
 ##### **My Key Takeaways:**
