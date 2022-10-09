@@ -1,0 +1,96 @@
+body{
+  background: #141C2F;
+  color:white;
+}
+.App {
+  text-align: center;
+}
+
+.memeContainer{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+}
+img{
+  width:320px;
+  height:320px;
+  border-radius:5px;
+}
+.meme {
+  position: relative;
+  margin: 1.8rem auto;
+}
+.memeText {
+  cursor:move;
+  position: absolute;
+  /* width: 80%;  */
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+.text0{
+  top:10px;
+}
+.text1{
+  bottom:20px;
+}
+.text2{
+  top:0px;
+}
+.text3{
+  bottom:0px;
+}
+.text4{
+  top:60px;
+}
+
+.inputsContainer, .btnContainer{
+  margin:1.5rem auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+}
+input{
+  outline:none;
+  border:none;
+  padding:5px;
+  border-radius:5px;
+  font-size:16px;
+}
+.btnContainer{
+  margin:1.5rem auto;
+}
+button{
+  outline:none;
+  border:none;
+  padding:5px;
+  border-radius:5px;
+  font-size:16px;
+  background:dodgerblue;
+  color:white;
+}
+button:active{
+  transform: scaleY(1.2);
+}
+button:hover{
+  cursor: pointer;
+}
+.memeImage{
+  width:420px;
+  height:420px;
+  border-radius:5px;
+}
