@@ -71,7 +71,7 @@ Let's dive into it.
     <tr>
       <th>Week-13 Ecommerce App using ReactJS</th>
       <td><a href="https://ecart-react-app.netlify.app/">watch Demo</a></td>
-      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-12ReactAPIProjects">View Source Code</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-13-Ecommerce-App">View Source Code</a></td>
     </tr>
 
 </table>
