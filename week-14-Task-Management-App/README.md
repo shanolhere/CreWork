@@ -24,7 +24,7 @@ Here, in this app, a user can save, edit and delete tasks. And also, can move th
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-14-Task-Management-App/assets/homepage.png" alt="Page">
 
 <br/>
 
@@ -32,7 +32,7 @@ Here, in this app, a user can save, edit and delete tasks. And also, can move th
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-14-Task-Management-App/assets/editTask.png" alt="Page">
 
 <br/>
 
@@ -40,16 +40,11 @@ Here, in this app, a user can save, edit and delete tasks. And also, can move th
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-14-Task-Management-App/assets/delTask.png" alt="Page">
 
 <br/>
 
 
-<br/>
-
-<img src="" alt="Page">
-
-<br/>
 
 ##### **My Key Takeaways:**
 1. This week brushed basic concepts of ReactJS, Hooks, Router concepts.
