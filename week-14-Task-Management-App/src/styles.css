@@ -1,0 +1,135 @@
+body {
+  background: #132743;
+  color: white;
+}
+.App {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+}
+.status {
+  /* border: 2px solid rgb(230, 225, 225); */
+  padding: 10px;
+  width: 420px;
+  height: max-content;
+}
+.mainContainer {
+  margin: 0.5rem 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  /* border: 2px solid #9ad3bc; */
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 2px 8px 8px #050505; */
+}
+.container {
+  border: 2px solid #9ad3bc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border: 2px solid #9ad3bc;
+  border-radius: 5px;
+}
+.taskContainer {
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1px 10px;
+  /* border: 2px solid rgb(230, 225, 225); */
+  background: rgb(180, 179, 179);
+}
+.btnContainer {
+  /* background: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: #9ad3bc;
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #2cbb82;
+  color: white;
+}
+input,
+select {
+  outline: none;
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+input::placeholder {
+  color: rgb(112, 105, 105);
+}
+.Low {
+  background: rgb(224, 198, 131);
+}
+.Medium {
+  background: rgb(95, 189, 95);
+}
+.High {
+  background: rgb(218, 90, 90);
+}
+.deleteBtn {
+  background: rgb(228, 54, 54);
+  color: white;
+  /* border-radius: 50%;
+  padding: 5px; */
+}
+.deleteBtn:hover {
+  background: rgb(228, 18, 18);
+  color: white;
+}
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+@media screen and (max-width: 1480px) {
+  .mainContainer {
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    /* border: 2px solid #9ad3bc; */
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 2px 8px 8px #050505; */
+  }
+}
