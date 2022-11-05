@@ -21,31 +21,37 @@ Live Demo: https://3m18wu.csb.app/
 Here, in this app, a user can search for any recipe and finds all the related information about the recipe on how to make a dish.
 
 
-#### Home Page:
+### Home Page:
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-15-Recipe-App/assets/home.png" alt="Page">
 
 <br/>
 
-#### Editing a Task:
+### Recipe Details Page:
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-15-Recipe-App/assets/recipeDetail.png" alt="Page">
 
 <br/>
 
-#### Deleting a Task:
+### Searching a Recipe:
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-15-Recipe-App/assets/search.png" alt="Page">
 
 <br/>
 
+### About Page:
 
+<br/>
+
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-15-Recipe-App/assets/about.png" alt="Page">
+
+<br/>
 
 ##### **My Key Takeaways:**
 1. This week brushed basic concepts of ReactJS, Hooks, Router concepts, context API concept.
