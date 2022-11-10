@@ -1,0 +1,258 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+.product__card{
+  width: 320px;
+  height: 490px;
+  padding: 10px 10px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.product__image{
+  padding: 25px;
+  width: 300px;
+  height: 290px;
+  border-radius: 5px;
+}
+button {
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.addCart {
+  background: green;
+}
+.addWishlist {
+  background: rgb(240, 41, 74);
+}
+.addCart:hover {
+  border: 2px solid green;
+  color: green;
+  background: white;
+}
+.addWishlist:hover {
+  border: 2px solid rgb(240, 41, 74);
+  color: rgb(240, 41, 74);
+  background: white;
+}
+
+.wishlistIcon {
+  position: relative;
+}
+.badge2 {
+  position: absolute;
+  top: 6px;
+  right: 88px;
+  background: rgb(240, 41, 74);
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  padding: 2px 5px;
+  aspect-ratio: 1/1;
+}
+.cartIcon {
+  position: relative;
+}
+.badge1 {
+  position: absolute;
+  top: 8px;
+  right: 46px;  
+  background: green;
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  padding: 2px 5px;
+}
+/*cart page styling*/
+.cartImage {
+  width: 200px;
+  height: 200px;
+  margin:5px;
+}
+.productCard {
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+/* input container stylings */
+.price-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+} 
+.productCard-title{
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.incr {
+  background: green;
+}
+.decr {
+  background: red;
+}
+.cartBtn {
+  background-color: rgb(14, 165, 233);
+  letter-spacing: 1px;
+  width: 100%;
+  font-size: 20px;
+}
+.cartBtn:hover {
+  border: 2px solid rgb(14, 165, 233);
+  background: white;
+  color: rgb(14, 165, 233);
+}
+.checkoutContainer {
+  margin: 0.5rem;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  height: max-content;
+  /* width: 95%; */
+  padding: 25px 5px;
+}
+
+.checkoutContainer table {
+  text-align: center;
+  width: 100%;
+}
+
+tr,
+th {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 12px 0; 
+}
+thead {
+  background: rgb(112, 112, 112);
+  border-radius: 15px;
+}
+thead tr th {
+  padding: 3px 0;
+}
+td {
+  padding: 6px 0;
+  margin: 5px;
+  margin: 10px;
+  text-align: center;
+}
+hr {
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid white;
+  background: white;
+}
+p span {
+  font-size: 32px;
+  font-weight: 600;
+}
+.total {
+  font-size: 24px;
+  letter-spacing: 1px;
+} 
+
+/* productdetails page syling */
+.imageContainer img {
+  padding: 25px;
+  width: 300px;
+  height: 320px;
+  border-radius: 5px;
+}
+.toggle {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.toggler__div {
+  background-color: black;
+  width: 58px;
+  height: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.toggler__slider {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+.light .toggler--slider {
+  justify-content: flex-start;
+}
+.dark .toggler--slider {
+  justify-content: flex-end;
+}
+
+.dark {
+  /* background:rgb(52, 52, 52);  */
+   background-color: rgb(13,20,32);
+   color:rgb(214,222,235);
+}
+.light {
+  background-color: #fff; 
+  color: #333;
+}
+.dark .product__card, .dark .productCard {
+  box-shadow: 4px -2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+.dark q{
+  color:rgb(169, 172, 175);
+}
+.dark .addCart:hover {
+  background: black;
+}
+.dark .addWishlist:hover {
+  background: black;
+}
+.dark .wishlistIcon, .dark .cartIcon, .dark .logoutIcon{
+  color:black;
+}
+.light .wishlistIcon, .light .cartIcon, .light .logoutIcon{
+  color:white;
+}
+
+.dark .signup-container{
+  background:rgb(39, 39, 39);
+  color:white;
+}
+.dark input{
+  color:white;
+  background:#333;
+}
+.dark .submitBtn{
+  background-color: rgb(14, 165, 233);
+}
+.dark .submitBtn:hover{
+  background:#333;
+}
+
+/* login page styling */
+.submitBtn{
+  width:100%;
+}
+.submitBtn:hover{
+  border:2px solid rgb(14, 165, 233);
+  color:rgb(14, 165, 233);
+  background:white;
+}
