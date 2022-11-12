@@ -1,5 +1,6 @@
 import {createContext, useState, useEffect} from "react";
-
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const DataContext = createContext();
 
@@ -15,8 +16,16 @@ export const DataContextProvider = ({children}) => {
     const toggleTheme = () => {
       if (theme === 'light') {
         setTheme('dark');
+        toast.info("Theme changed to Dark !", {
+          position: toast.POSITION.TOP_RIGHT,
+          className: "toast-addWishlist"
+        });
       } else {
         setTheme('light');
+        toast.info("Theme changed to Light !", {
+          position: toast.POSITION.TOP_RIGHT,
+          className: "toast-addWishlist"
+        });
       }
     };
     useEffect(() => {
@@ -26,10 +35,10 @@ export const DataContextProvider = ({children}) => {
 
     function addToWishList(product) {
         
-        // toast.success("Item added to Wishlist !", {
-        //   position: toast.POSITION.TOP_RIGHT,
-        //   className: "toast-addWishlist"
-        // });
+        toast.success("Item added to Wishlist !", {
+          position: toast.POSITION.TOP_RIGHT,
+          className: "toast-addWishlist"
+        });
         if (!wishlist.length) {
             setWishlist((prevProducts) => {
             return [...prevProducts, product];
@@ -43,10 +52,10 @@ export const DataContextProvider = ({children}) => {
 
     function removeFromWishList(product) {
         
-        // toast.error("Item removed from Wishlist !", {
-        //   position: toast.POSITION.TOP_RIGHT,
-        //   className: "toast-removeWishlist"
-        // });
+        toast.error("Item removed from Wishlist !", {
+          position: toast.POSITION.TOP_RIGHT,
+          className: "toast-removeWishlist"
+        });
         setWishlist((prevProducts) => {
           return prevProducts.filter((item) => {
             return item.id !== product.id;
@@ -67,10 +76,10 @@ export const DataContextProvider = ({children}) => {
           
           setCart(uniquelist);
         }
-        // toast.success("Item added to Cart !", {
-        //   position: toast.POSITION.TOP_RIGHT,
-        //   className: "toast-addCart"
-        // });
+        toast.success("Item added to Cart !", {
+          position: toast.POSITION.TOP_RIGHT,
+          className: "toast-addCart"
+        });
       }
     
       function removeFromCart(product) {
@@ -82,10 +91,10 @@ export const DataContextProvider = ({children}) => {
             return item.id !== product.id;
           });
         });
-        // toast.error("Item removed from Cart !", {
-        //   position: toast.POSITION.TOP_RIGHT,
-        //   className: "toast-removeCart"
-        // });
+        toast.error("Item removed from Cart !", {
+          position: toast.POSITION.TOP_RIGHT,
+          className: "toast-removeCart"
+        });
       }
 
 

@@ -1,11 +1,15 @@
 import React, {useContext, useEffect} from "react";
 import { DataContext } from "../context/DataContext";
-import {NavLink, Link} from "react-router-dom"
+import { Link} from "react-router-dom"
 import { FaShoppingCart } from "react-icons/fa";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { MdStarRate } from "react-icons/md";
 import { HiChevronRight } from "react-icons/hi";
 import { BsFillHeartFill } from "react-icons/bs";
+
+import { ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const Home = () => {
     const {products,setProducts,wishlist,setWishlist,cart,setCart, addToWishList, removeFromWishList, addToCart, removeFromCart} = useContext(DataContext);
@@ -23,6 +27,7 @@ const Home = () => {
 
  return (
     <div className="container mx-auto py-4 my-2">
+        
     <Link to="/">
         <button className="backBtn browseBtn bg-sky-500 p-2 rounded-md mx-2 flex flex-row justify-center items-center gap-2">
           Browse Products <HiChevronRight />
@@ -31,8 +36,9 @@ const Home = () => {
       <div style={{ textAlign: "center", margin: "1.5rem auto 1.5rem auto",letterSpacing:"1px" }} className="text-xl italic font-extrabold text-gray-300">
         <q>Browse and choose your happiness</q>
       </div>
-    <div className="container mx-auto py-6 my-8 flex flex-wrap justify-center align-baseline gap-5">
       
+    <div className="container mx-auto py-6 my-8 flex flex-wrap justify-center align-baseline gap-5">
+    <ToastContainer/>
     
         {products.length===0 ? (<p>Loading...</p>) : (
             

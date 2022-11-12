@@ -24,7 +24,7 @@ const ProductDetails = ({}) => {
 
   return (
     <div className="container mx-auto py-4 my-2">
-      <Link to="/">
+      <Link to="/products">
         <button className="backBtn bg-sky-500 p-2 rounded-md mx-2 flex flex-row justify-center items-center gap-2">‹ Back to Products</button>
       </Link>
       <div className="card1 flex flex-col justify-center items-center py-2 mx-2">

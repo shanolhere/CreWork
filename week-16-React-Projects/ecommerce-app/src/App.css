@@ -45,7 +45,8 @@ button {
 .badge2 {
   position: absolute;
   top: 6px;
-  right: 88px;
+  /* right: 88px; */
+  right:131px;
   background: rgb(240, 41, 74);
   color: white;
   font-size: 14px;
@@ -58,8 +59,9 @@ button {
 }
 .badge1 {
   position: absolute;
-  top: 8px;
-  right: 46px;  
+  top: 6px;
+  /* right: 46px;   */
+  right:88px;
   background: green;
   color: white;
   font-size: 14px;
@@ -124,7 +126,7 @@ button {
   gap: 15px;
   height: max-content;
   /* width: 95%; */
-  padding: 25px 5px;
+  padding: 25px 15px;
 }
 
 .checkoutContainer table {
@@ -173,36 +175,6 @@ p span {
   height: 320px;
   border-radius: 5px;
 }
-.toggle {
-  display: flex;
-  gap: 10px;
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.toggler__div {
-  background-color: black;
-  width: 58px;
-  height: 25px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.toggler__slider {
-  background-color: white;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  text-align: center;
-}
-.light .toggler--slider {
-  justify-content: flex-start;
-}
-.dark .toggler--slider {
-  justify-content: flex-end;
-}
 
 .dark {
   /* background:rgb(52, 52, 52);  */
@@ -246,7 +218,9 @@ p span {
 .dark .submitBtn:hover{
   background:#333;
 }
-
+.light .profileIcon{
+  color:white;
+}
 /* login page styling */
 .submitBtn{
   width:100%;
@@ -255,4 +229,20 @@ p span {
   border:2px solid rgb(14, 165, 233);
   color:rgb(14, 165, 233);
   background:white;
+}
+.banner{
+  height:34rem;
+}
+.profileIcon{
+  color:black;
+}
+.homeContainer th {
+  width: 220px;
+  padding: 5px;
+  text-align: left;
+}
+.homeContainer td {
+  width: 90px;
+  padding: 5px;
+  text-align: left;
 }

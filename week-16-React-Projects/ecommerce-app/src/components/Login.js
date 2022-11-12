@@ -4,8 +4,8 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 
-// import { ToastContainer, toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -40,10 +40,10 @@ const Login = () => {
 
   const guestLoginHandler = () => {
     setFormData({ ...formData, email: "test@gmail.com", password: "test123" });
-    // toast.success(`Logged as Guest!`, {
-    //   position: toast.POSITION.TOP_RIGHT,
-    //   className: "toast-moveTask"
-    // });
+    toast.success(`Logged as Guest!`, {
+      position: toast.POSITION.TOP_RIGHT,
+      className: "toast-moveTask"
+    });
   };
 
   return (

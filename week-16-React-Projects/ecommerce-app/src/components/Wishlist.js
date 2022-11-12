@@ -1,9 +1,7 @@
 import React, {useContext} from "react";
-import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { MdStarRate } from "react-icons/md";
-import { IoStar } from "react-icons/io";
 import { DataContext } from "../context/DataContext";
 import { BsFillHeartFill } from "react-icons/bs";
 import EmptyWishlist from "./EmptyWishlist";

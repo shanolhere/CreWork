@@ -9,7 +9,7 @@ const EmptyWishlist = () => {
         style={{ color: "rgb(240, 41, 74)" }}
         size={160}
       ></HiShoppingBag>
-      <Link to="/">
+      <Link to="/products">
         <button className="backBtn browseBtn bg-sky-500 p-2 rounded-md mx-2 flex flex-row justify-center items-center gap-2">
           Browse Products <HiChevronRight />
         </button>
