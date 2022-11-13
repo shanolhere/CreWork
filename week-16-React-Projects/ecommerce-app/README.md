@@ -14,7 +14,8 @@ Okay for the introduction, lets build our project😎
 
 
 ### Output:
-Live Demo: 
+
+Live Demo: https://fakestore-ecart.netlify.app/
 
 ### Ecommerce App - FakeStore:
 
