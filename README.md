@@ -83,6 +83,11 @@ Let's dive into it.
       <td><a href="https://3m18wu.csb.app/">watch Demo</a></td>
       <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-15-Recipe-App">View Source Code</a></td>
     </tr>
+    <tr>
+      <th>Week-16 Ecommerce App using ReactJS</th>
+      <td><a href="https://fakestore-ecart.netlify.app/">watch Demo</a></td>
+      <td><a href="https://github.com/shanolhere/CreWork/tree/main/week-16-React-Projects/ecommerce-app">View Source Code</a></td>
+    </tr>
 
 </table>
 

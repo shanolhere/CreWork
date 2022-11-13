@@ -16,7 +16,7 @@ Okay for the introduction, lets build our project😎
 ### Output:
 Live Demo: https://3m18wu.csb.app/
 
-### Task Management App:
+### Recipe App:
 
 Here, in this app, a user can search for any recipe and finds all the related information about the recipe on how to make a dish.
 
