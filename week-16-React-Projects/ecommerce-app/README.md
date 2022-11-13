@@ -35,7 +35,7 @@ Here, in this app, a user can browse products, add, remove products in cart and 
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/home.png" alt="Page">
 
 <br/>
 
@@ -43,7 +43,7 @@ Here, in this app, a user can browse products, add, remove products in cart and 
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/products.png" alt="Page">
 
 <br/>
 
@@ -51,7 +51,7 @@ Here, in this app, a user can browse products, add, remove products in cart and 
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/productDetail.png" alt="Page">
 
 <br/>
 
@@ -59,7 +59,7 @@ Here, in this app, a user can browse products, add, remove products in cart and 
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/wishlist.png" alt="Page">
 
 <br/>
 
@@ -67,11 +67,33 @@ Here, in this app, a user can browse products, add, remove products in cart and 
 
 <br/>
 
-<img src="" alt="Page">
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/cart.png" alt="Page">
 
 <br/>
 
+### Account Page:
 
+<br/>
+
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/account.png" alt="Page">
+
+<br/>
+
+### Signup Page:
+
+<br/>
+
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/signup.png" alt="Page">
+
+<br/>
+
+### Login Page:
+
+<br/>
+
+<img src="https://github.com/shanolhere/CreWork/blob/main/week-16-React-Projects/ecommerce-app/src/assets/login.png" alt="Page">
+
+<br/>
 
 
 ##### **My Key Takeaways:**
