@@ -40,7 +40,7 @@ Here, our database name is, **demo**  collection name is **data**
         db.collection_name.find()  - Displays all the documents in the collection.
 
 <br/>
-   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query1.PNG" alt="Page">
+   <img src="./assets/query1.PNG" alt="Page">
 <br/>
 
 ### 2.  Write a MongoDB query to display the fields for all the documents where gender is Female.
