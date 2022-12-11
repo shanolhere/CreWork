@@ -4,9 +4,8 @@ Here, we will learn how to install MongoDB and also how to generate queries usin
 
 
 ### MongoDB :
-1. React is a widely used JS Library to build user interfaces.
-2. With the help of React, we can build encapsulated components that manage their own state, then compose them to make complex UIs.
-3. Also, React is declarative.
+1. MongoDB is a free and open-source cross-platform document-oriented database.
+2. Classified as a NoSQL database, MongoDB avoids the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas, making the integration of data in certain types of applications easier and faster..
 
 ### Installation:
 
@@ -40,12 +39,91 @@ Here, our database name is, **demo**  collection name is **data**
 
         db.collection_name.find()  - Displays all the documents in the collection.
 
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query1.png" alt="Page">
+<br/>
+
+### 2.  Write a MongoDB query to display the fields for all the documents where gender is Female.
+
+        db.data.find({"gender": 'Female'})
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query2.png" alt="Page">
+<br/>
+
+### 3.  Write a MongoDB query to display the count of all the documents in the collection.
+
+        db.data.countDocuments()
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query3.png" alt="Page">
+<br/>
+
+
+### 4.  Write a MongoDB query to display the first 5 documents in the collection.
+
+        db.data.find({}).limit(5)
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query4.png" alt="Page">
+<br/>
+
+### 5.  Write a MongoDB query to display the first 5 documents having gender as Male in the collection.
+
+        db.data.find({gender:"Male"}).limit(5)
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query5.png" alt="Page">
+<br/>
+
+### 6.  Write a MongoDB query to display the documents having gender as Male and first_name starts with either 'S' or 'Z' in the collection.
+
+        db.data.find({gender:"Male", first_name:{$regex:"^Z|^S"}})
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query6.png" alt="Page">
+<br/>
+
+
+### 7.  Write a MongoDB query to display the count of the documents having gender as Male and first_name starts with either 'S' or 'Z' in the collection.
+
+        db.data.find({gender:"Male", first_name:{$regex:"^Z|^S"}}).count()
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query7.png" alt="Page">
+<br/>
+
+
+### 8.  Write a MongoDB query to display the count of the null documents of field ip_address.
+
+      db.data.countDocuments({ip_address:{$exists:false}})
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query8.png" alt="Page">
+<br/>
+
+
+### 9.  Write a MongoDB query to add a new document to the existing data.
+
+       db.data.insertOne({id:001, first_name: "Sabiya",last_name: "Tabassum",email:"test@gmail.com",ip_address:"22.188.45.48"})
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query9.png" alt="Page">
+<br/>
+
+### 10.  Write a MongoDB query to delete that new document from the existing data.
+
+       db.data.deleteOne({id:001, first_name: "Sabiya",last_name: "Tabassum",email:"test@gmail.com",ip_address:"22.188.45.48"})
+
+<br/>
+   <img src="https://github.com/shanolhere/CreWork/blob/main/week-20-MongoDB-Task/assets/query10.png" alt="Page">
+<br/>
 
 
 
 
 ##### **My Key Takeaways:**
-1. This week brushed basic concepts of ReactJS, Hooks, Router concepts, context API concept.
+1. This week brushed basic concepts of MongoDB.
 2. Looking forward to learn more.
 
 ##### **My Social Links**
